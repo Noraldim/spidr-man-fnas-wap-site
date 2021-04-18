@@ -1,0 +1,226 @@
+/*
+Theme Name : HTML5
+creater    :by noraldim 
+Date       :26 February
+Virsion    : 1.0
+The Site   : www.noraldim.com
+*/
+body{
+
+	background-color: #D5D2D2;
+	color: #000305;
+	font-size: 90%;
+    font-family: Arial, 'Lucida Sans Unicode'
+    line-height: 1.5;
+    text-align: left;
+
+
+} 
+.body{
+	margin: 0 auto;
+	width: 80%;
+	clear: both;
+}
+
+a {text-decoration: none;}
+a:link, a:visited { color: #e74c3c ;} 
+a:hover, a:active { color: #f58233 ;}
+
+
+/*--------------------MEAN HEADER-------------------*/
+.meanheader img { 
+	width: 100%;
+	border-radius: 5px;
+    -wabkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+
+ 
+
+}
+
+.meanheader nav{
+background-color: #e74c3c;
+height:	40px;
+border-radius: 5px;
+-wabkit-border-radius: 5px;
+-moz-border-radius: 5px;
+
+
+}
+.meanheader nav ul {
+	text-align: center;
+	list-style: none;
+	margin: 0 auto;
+
+}
+
+
+
+.meanheader nav ul li {
+
+	display: inline;
+}
+
+
+.meanheader a:link, .meanheader a:visited{
+	color: white;
+	padding: 10px 20px;
+
+	display: inline-block;
+	height: 20px;
+
+}	
+
+.meanheader a:hover, .meanheader a:active{
+	color: white;
+	background-color: #f58233;
+	text-shadow: 1px 1px #000; 
+}
+
+
+/*--------------------MEAN CONTENT-------------------*/
+.meanContent {
+	width: 70%;
+	float: left;
+}
+.top-content {
+	background-color: white;
+	padding: 3%;
+	margin-top: 3%;
+	border-radius: 5px;
+    -wabkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+
+}
+.lastfooter {
+	font-size: 90%;
+	color:#999;
+	font-style: initial;
+	margin-top: -20px;
+}
+.POST-CONTENT{
+	display: block;
+}
+
+
+/*--------------------MEAN CONTENT------------------------*/
+.the-site-bare {
+	width: 24%;
+	margin: 2% 0 0 2%;
+	float: left;
+	padding: 2%;
+	background-color: white;
+	border-radius: 5px;
+    -wabkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+
+}
+
+
+.footer{
+float: left;
+width: 100%;
+margin-top: 20px;
+background-color: #e74c3c;
+height:	40px;
+border-radius: 5px;
+-wabkit-border-radius: 5px;
+-moz-border-radius: 5px;
+
+
+}
+
+.footer p {
+	text-align: center;
+	color: white;
+	width: 90%;
+
+}
+/*--------------------MEAN CONTENT------------------------*/
+.post-img {
+	width: 100%;
+}
+
+figure {
+	margin: 25px 0;
+	font-size: 90%;
+	color: #999;
+}
+audio {
+	width: 100%;
+}
+
+
+/*--------------------FORE MOBILE------------------------*/
+
+@media screen and (max-width: 480px){
+       .body {
+       	width: 90%;
+       	font-size: 95%; 
+
+       }
+
+
+       /*--------------------MEAN HEADER MOBILE-------------------*/
+
+.meanheader nav{
+
+height:	160px;
+
+}
+
+.meanheader ul {
+
+	width: 100%;
+	padding: 0;
+}
+
+
+
+
+
+.meanheader nav ul li {
+
+	display: inline;
+}
+
+
+.meanheader a:link, .meanheader a:visited{
+	
+	display: block;
+
+}	
+
+.meanheader a:hover, .meanheader a:active{
+	color: white;
+	background-color: #f58233;
+	text-shadow: 1px 1px #000; 
+}
+
+
+.meanContent {
+	width: 100%;
+	
+}
+
+
+.the-site-bare {
+	width: 94%;
+
+
+	
+}
+
+
+}
+
+@media screen and (max-width: 680px){
+       .body {
+       	width: 90%;
+       	font-size: 95%;        
+      }
+
+     .meanheader nav {
+     	font-size: 80%;
+     } 
+}
